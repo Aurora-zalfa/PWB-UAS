@@ -9,3 +9,6 @@ def home(request):
 # ----- ADMIN FUNCTION ------
 def homeAdmin(request):
     return render(request, 'admin/home.html')
+
+def dashboard(request):
+    return render(request, 'admin/dashboard.html')
